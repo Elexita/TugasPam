@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="jam">JAM</string>
+    <string name="some_id">!</string>
+    <string name="enjoy_your">ENJOY YOUR LIFE,</string>
+    <string name="jam2">JAM!</string>
+    <string name="yourself">YOURSELF</string>
+    <string name="music_anywh">music anywhere, anytime</string>
+
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="doesn_t_hav">Doesnt have an account? make one!</string>
+
+    <string name="sign">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="already_hav">already have an account?</string>
+</resources>
