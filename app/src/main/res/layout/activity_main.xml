@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -10,25 +11,14 @@
         android:id="@+id/mainpict"
         android:layout_width="411dp"
         android:layout_height="400dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/mainpict"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-2dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-2dp" />
 
     <TextView
         android:id="@+id/jam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="50dp"
         android:fontFamily="@font/takota"
         android:gravity="top"
         android:text="@string/jam"
@@ -41,11 +31,6 @@
         android:id="@+id/some_id"
         android:layout_width="29dp"
         android:layout_height="136dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="196dp"
-        android:layout_marginTop="43dp"
         android:fontFamily="@font/staatliches"
         android:gravity="top"
         android:text="@string/some_id"
@@ -58,13 +43,6 @@
         android:id="@+id/enjoy_your"
         android:layout_width="393dp"
         android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginTop="372dp"
         android:fontFamily="@font/staatliches"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="0sp"
@@ -79,49 +57,38 @@
         android:id="@+id/jam2"
         android:layout_width="93dp"
         android:layout_height="51dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="68dp"
-        android:layout_marginTop="417dp"
         android:fontFamily="@font/staatliches"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="0sp"
         android:text="@string/jam2"
         android:textAppearance="@style/jam2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="434dp" />
+        tools:layout_editor_absoluteY="424dp" />
 
     <TextView
         android:id="@+id/yourself"
-        android:layout_width="200dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="156dp"
-        android:layout_marginTop="417dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/staatliches"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="0sp"
         android:text="@string/yourself"
         android:textAppearance="@style/enjoy_your"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="434dp" />
+        tools:layout_conversion_absoluteHeight="54dp"
+        tools:layout_conversion_absoluteWidth="200dp"
+        tools:layout_editor_absoluteY="424dp" />
 
     <TextView
         android:id="@+id/music_anywh"
         android:layout_width="336dp"
         android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="41dp"
-        android:layout_marginTop="488dp"
         android:fontFamily="@font/staatliches"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="0sp"
@@ -133,5 +100,24 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="488dp" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/component1"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="55dp"
+        tools:layout_conversion_absoluteWidth="136dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="565dp"
+        tools:srcCompat="@drawable/component1" />
 
-</RelativeLayout>
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="146dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/component2"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
