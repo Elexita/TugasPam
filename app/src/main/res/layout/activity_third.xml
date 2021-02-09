@@ -122,11 +122,21 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="142dp"
-        android:layout_height="53dp"
+        android:layout_width="161dp"
+        android:layout_height="57dp"
+        android:background="#00FFFFFF"
         app:srcCompat="@drawable/component2"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="591dp" />
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/navigate_before_24px_outlined"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="11dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

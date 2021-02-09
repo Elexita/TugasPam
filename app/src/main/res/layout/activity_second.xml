@@ -8,6 +8,15 @@
     android:background="@drawable/background1"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/navigate_before_24px_outlined"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="11dp" />
+
     <TextView
         android:id="@+id/login"
         android:layout_width="313dp"
@@ -80,16 +89,18 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="136dp"
+        android:layout_width="166dp"
         android:layout_height="55dp"
         android:layout_marginStart="138dp"
         android:layout_marginEnd="138dp"
+        android:background="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/component1"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="456dp"
-        tools:srcCompat="@drawable/component1"
-        tools:ignore="MissingConstraints" />
+        tools:srcCompat="@drawable/component1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
