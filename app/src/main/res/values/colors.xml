@@ -12,4 +12,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="orange">#FFA500 </color>
     <color name="green">#00FF00</color>
+    <color name="orange_2">#FFB93A</color>
+    <color name="orange_3">#FF8E05</color>
 </resources>
