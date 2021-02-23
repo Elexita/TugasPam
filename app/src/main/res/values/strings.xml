@@ -17,4 +17,13 @@
     <string name="phone">Phone Number</string>
     <string name="already_hav">already have an account?</string>
     <string name="button">Button</string>
+
+    <string name="hi">HI, NAME</string>
+    <string name="topmusic">TOP MUSIC</string>
+    <string name="latin">LATIN</string>
+    <string name="top100">TOP 100</string>
+    <string name="kpop">K-POP</string>
+    <string name="recently">RECENTLY PLAYED</string>
+    <string name="songs_name">SONGS NAME</string>
+    <string name="singer">SINGER</string>
 </resources>

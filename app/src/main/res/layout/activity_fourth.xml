@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:onClick="loginButton"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/rectangle7"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hi_name"
+        app:layout_constraintVertical_bias="0.13"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/hi_name"
+        android:layout_width="105dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/staatliches"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/hi"
+        android:textAppearance="@style/hi_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle7"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_6"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_5"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hi_name"
+        app:layout_constraintVertical_bias="0.142"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/top_100"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/top100"
+        android:textAppearance="@style/top_music"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_5"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_5"
+        app:layout_constraintVertical_bias="0.533"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/k_pop"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/kpop"
+        android:textAppearance="@style/kpop"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <View
+        android:id="@+id/recblack"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recblack"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_6"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_6"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_6" />
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="520dp"
+        android:background="@drawable/rectangle7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/latin"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/latin"
+        android:textAppearance="@style/latin"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_6"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_6"
+        app:layout_constraintStart_toEndOf="@+id/recblack"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_6"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <View
+        android:id="@+id/recjingga"
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recjingga"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/k_pop"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_4"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_4"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <View
+        android:id="@+id/recred"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recred"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_5"
+        app:layout_constraintEnd_toStartOf="@+id/top_100"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_5"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recpurple"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_7"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_7"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_7"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <TextView
+        android:id="@+id/top_music"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_horizontal|center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/topmusic"
+        android:textAppearance="@style/top_music"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_7"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_7"
+        app:layout_constraintVertical_bias="0.533"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="155dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_4"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/recframe"
+        android:layout_width="400dp"
+        android:layout_height="169dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recently_pl"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/recently_pl"
+        android:layout_width="123dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/recently"
+        android:textAppearance="@style/recently_pl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_6"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <View
+        android:id="@+id/recframe2"
+        android:layout_width="400dp"
+        android:layout_height="169dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/frame2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recframe"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="407dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recframe2"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="74dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recwhite"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/rectangle_0"
+        android:layout_width="413dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/recbarblack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9" />
+
+    <TextView
+        android:id="@+id/songs_name"
+        android:layout_width="244dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/songs_name"
+        android:textAppearance="@style/songs_name"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/singer"
+        android:layout_width="88dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/staatliches"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/singer"
+        android:textAppearance="@style/singer"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@+id/songs_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/play"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/playbutton"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintStart_toEndOf="@+id/songs_name"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_9" />
+
+    <View
+        android:id="@+id/home"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/homebutton"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_0"
+        app:layout_constraintEnd_toStartOf="@+id/search"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_0"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9" />
+
+    <View
+        android:id="@+id/search"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/searchbutton"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_0"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_0"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9" />
+
+    <View
+        android:id="@+id/clear"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/clearbutton"
+        app:layout_constraintBottom_toBottomOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toEndOf="@+id/search"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
